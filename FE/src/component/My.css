@@ -1,0 +1,272 @@
+.my-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200vh;
+    background-color: #f0f0f0;
+  }
+  
+  .my-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  #myprofile {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 70%;
+  }
+  
+  #myprofile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  #myprofile .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .emoji-button {
+    background-color: #f26767;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .emoji-picker {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .emoji-option {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .color-picker {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  
+  .color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .event-section {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .event-section h3 {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  
+  .event-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .event-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .event-header .info {
+    flex-grow: 1;
+  }
+  
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    background-color: #F0AD00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emoji-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .event-body {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .event-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .participate-button {
+    background-color: #f26767;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .tab-button.active {
+    background-color: #f26767;
+    color: white;
+  }
+  
+  .tab-content {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .friend-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .friend-card img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .friend-card .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .invite-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .invite-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .invite-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .invite-info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+  
+  /* 반응형 디자인 */
+  @media (max-width: 768px) {
+    .my-container {
+      padding: 10px;
+    }
+  
+    #myprofile {
+      width: 100%;
+    }
+  
+    .event-section,
+    .tabs,
+    .tab-content {
+      width: 100%;
+    }
+  
+    .color-picker {
+      justify-content: center;
+    }
+  }
+  
